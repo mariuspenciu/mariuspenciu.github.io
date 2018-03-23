@@ -1,8 +1,7 @@
-document.getElementById("id_bussines_level").innerHTML = "Bussines version = 2018.03.23.0";
+document.getElementById("id_bussines_level").innerHTML = "Bussines version = 2018.03.23.1";
 
-setInterval(deseneaza, 30);
-var y = 0;
-var directie = 1;
+setInterval(deseneaza, 30, 0, 1);
+
 
 function deseneaza()
 
